@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Mode</title>
+    <link rel="stylesheet" href="easy.css">
+</head>
+<body>
+<div class="main">
+    <div class="mainC">
+        <div class="scores">
+            <div class="playerS">
+                <h3></h3>
+                <p>0</p>
+            </div><div class="computerS">
+                <h3>Computer</h3>
+                <p>0</p>
+            </div>
+        </div>
+        <div class="sides">
+        <div class="mode">
+            <h4>Easy Mode</h4>
+        </div>
+        <div class="menu">
+            <a href="index.html"><button>Menu</button></a>
+        </div>
+        <div class="end">
+            <button>End Game</button>
+        </div>
+        </div>
+        <div class="boxes">
+            <div class="firstRow">
+            <button class="gameB" id="1"></button>
+            <button class="gameB" id="2"></button>
+            <button class="gameB" id="3"></button>
+            </div>
+            <div class="secondRow">
+            <button class="gameB" id="4"></button>
+            <button class="gameB" id="5"></button>
+            <button class="gameB" id="6"></button>
+            </div>
+            <div class="thirdRow">
+            <button class="gameB" id="7"></button>
+            <button class="gameB" id="8"></button>
+            <button class="gameB" id="9"></button>
+            </div>
+        </div>
+
+    </div>
+</div>  
+<div class="form">
+    <form>
+        <input type="text" name="name" id="name" placeholder="Enter your name" maxlength="8" required>
+        <input type="submit" name="submit" id="sub" value="Start Game">
+    </form>
+
+    <div class="contain">
+        <h3>Are you sure you want to end game</h3>
+        <a href="index.html"><button class="yes">yes</button></a>
+        <button class="No">No</button>
+    </div>
+
+    <div class="Winner">
+        <h3></h3>
+        <button class="Restart">Restart</button>
+        <a href="index.html"><button class="end2">End game</button></a>
+    </div>
+</div>  
+</body>
+<script src="easy.js"></script>
+</html>

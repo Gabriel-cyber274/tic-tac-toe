@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(65, 62, 62);
+}
+.startUpB {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+.startUpB button {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: rgb(212, 209, 209);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: translateX(-800%);
+}
+.startUpB button:hover {
+    background-color: green;
+}
+.Easy {
+    animation: home 1s ease-in-out 1 forwards;
+}
+@keyframes home {
+    0% {
+        transform: translateX(-800%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+.Hard {
+    animation: home2 1s 0.3s ease-in-out 1 forwards;
+}
+@keyframes home2 {
+    0% {
+        transform: translateX(-800%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+.Multi {
+    animation: home3 1s 0.6s ease-in-out 1 forwards;
+}
+
+@keyframes home3 {
+    0% {
+        transform: translateX(-800%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+@media (max-width:299px) {
+    .startUpB button {
+        width: 180px;
+        height: 80px;
+        border-radius: 8px;
+        font-size: 1.3rem;
+    }
+}
+
+
